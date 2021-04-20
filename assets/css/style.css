@@ -63,7 +63,7 @@ nav a:hover {
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url(/assets/images/pexels-andrea-piacquadio-3760053.jpg)no-repeat center center;
+    background: url(/assets/images/watermelon.jpg)no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     clear: both;
@@ -93,6 +93,13 @@ nav a:hover {
 
 /* Why section */
 
+#why {
+    height: 800px;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #why h2 {
     font-size: 300%;
     font-weight: 300;
@@ -102,11 +109,9 @@ nav a:hover {
     
 }
 
-#why {
-    height: 600px;
-    text-align: center;
+#why p {
+    margin-bottom: 30px;
 }
-
 
 #left-section {
     width: 30%;
@@ -124,6 +129,42 @@ nav a:hover {
     margin: 0 auto;
 }
 
-#why p {
-    margin-bottom: 30px;
+/* Recipe link section */
+
+#recipe-link {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#eat-image {
+    height: 600px;
+    width: 900px;
+    background: url(/assets/images/table-eat.jpg);
+    filter: brightness(1.1); 
+    background-size: cover;
+    float: left;
+   
+    
+}
+
+#recipe-text {
+    
+        color: rgb(104, 104, 104);
+        font-size: 200%;
+        font-family: lato, sans-serif;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(226, 98, 98, 0.25);
+        border-radius: 5px;
+       float: right;
+       margin: 100px 100px 0 0
+        
+}
+
+/* footer */
+
+footer {
+    height: 900px;
 }
