@@ -8,10 +8,57 @@
 
 body {
     font-family: lato, sans-serif;
+    color: rgb(104, 104, 104)
+}
+
+a {
+    text-decoration: none;
+    color:rgb(104, 104, 104)
 }
 
 /* Header */
 
+#logo {
+    float: left;
+    font-size: 350%;
+    font-weight: 400;
+    line-height: 75px;
+    margin-left: 15px;
+}
+
 #try-logo {
     font-family: 'dancing script', cursive;
+    color: rgb(226, 98, 98);
+    margin-right: 10px;
+    font-weight: 800;
 }
+
+/* Navigation bar */
+
+nav {
+    float: right;
+    margin-right: 20px;
+    line-height: 75px;
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+
+nav li {
+    display: inline;
+    
+    
+    margin-right: 10px;
+    
+}
+
+nav a:hover {
+    border-bottom: 1px solid rgb(226, 98, 98);
+}
+
+#recipes {
+    font-family: lato, sans-serif;
+    color:black;
+}
+
+/* hero image */
+
