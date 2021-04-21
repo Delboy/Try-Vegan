@@ -196,11 +196,14 @@ nav a:hover {
         margin: 2em 15% 0 0;
 }
 
-/* slideshow */
-
-
 /* footer */
 
-footer {
+#social-links {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 3em;
     clear: both;
+    color: rgb(20, 20, 20);
+    padding-top: 2em;
+    height: 6em;
 }
