@@ -53,9 +53,15 @@ nav a:hover {
     border-bottom: 1px solid rgb(226, 98, 98);
 }
 
-#recipes {
-    font-family: lato, sans-serif;
-    color: black;
+#recipes-nav {
+    font-family: inherit;
+    color: inherit;
+    font-size: 1em;
+    letter-spacing: 4px;
+}
+
+#recipes-nav:hover {
+    border-bottom: 1px solid rgb(226, 98, 98);
 }
 
 /* hero image */
