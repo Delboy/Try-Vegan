@@ -94,7 +94,7 @@ nav a:hover {
 /* Why section */
 
 #why {
-    height: 800px;
+    height: 100%;
     width: 85%;
     text-align: center;
     margin: 0 auto;
@@ -113,28 +113,57 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+#why iframe {
+    height: auto;
+    width: 100%;
+}
+
 #left-section {
     width: 30%;
+    height: 100%;
     float: left;
+    text-align: center;
 }
 
 #right-section {
     width: 30%;
     float: right;
+    text-align: center;
 } 
 
 #middle-section {
-    padding-top: 1px;
+    padding: 1px;
     width: 30%;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Recipe link section */
 
 #recipe-link {
-    width: 85%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#ready {
+    color:rgb(226, 98, 98);
+    margin: 1em 0 1em;
+    font-size: 2em;
+    
+}
+
+#sign-up-link {
+    background-color: rgb(226, 98, 98);
+    color: white;
+    width: 25em;
+    height: 2em;
     margin: 0 auto;
-    border: 1px solid red;
+    padding-top: 0.5em;
+}
+
+#sign-up-link:hover {
+    background-color: rgb(255, 157, 181);
 }
 
 #eat-image {
@@ -144,11 +173,12 @@ nav a:hover {
     filter: brightness(1.1); 
     background-size: cover;
     float: left;
+    margin-top: 150px;
    
     
 }
 
-#recipe-text {
+/* #recipe-text {
     
         color: rgb(104, 104, 104);
         font-size: 200%;
@@ -160,7 +190,7 @@ nav a:hover {
         border-radius: 5px;
        float: right;
        margin: 100px 100px 0 0
-        
+         */
 }
 
 /* footer */
