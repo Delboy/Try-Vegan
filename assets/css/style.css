@@ -20,6 +20,7 @@ a {
 
 header {
     height: 75px;
+    
 }
 
 #logo {
@@ -70,11 +71,23 @@ header {
 /* Navigation bar */
 
 nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: white;
+    opacity: 0.75;
+    width: 100%;
+}
+
+
+nav ul {
+    
     float: right;
     margin: 0 20px 0 0;
     line-height: 75px;
     letter-spacing: 4px;
     font-size: 1em;
+   
 
     /* animation for navbar dropping */
 
@@ -101,6 +114,7 @@ nav {
 nav li {
     display: inline;
     margin-right: 10px;
+    
 }
 
 
@@ -296,7 +310,8 @@ nav a:hover {
     height: 200px;
     border-radius: 5px;
     float: right;
-    margin: 100px 15% 0 0;
+    margin: 100px 400px 0 0;
+   
 }
 
 /* footer */
