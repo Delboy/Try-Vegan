@@ -138,7 +138,7 @@ nav a:hover {
 } 
 
 #middle-section {
-    padding: 1px;
+    display: flow-root;
     width: 30%;
     margin: 0 auto;
     text-align: center;
@@ -187,6 +187,7 @@ nav a:hover {
     width:400px;
     float: left;
     margin-left: 20%;
+    margin-bottom: 2em;
 }
 
 #recipe-text {
@@ -204,12 +205,22 @@ nav a:hover {
 
 /* footer */
 
-#social-links {
-    text-align: center;
-    font-size: 2em;
-    letter-spacing: 3em;
+footer {
     clear: both;
-    color: rgb(20, 20, 20);
-    padding-top: 2em;
-    height: 6em;
+    margin: 0 auto;
+    height: 100px;
+    padding: 5%;
+}
+
+#social-links {
+    
+    text-align: center;
+}
+
+#social-links li {
+    display: inline;
+    font-size: 3em;
+    text-align: center;
+    margin: 1%;
+    padding: 5%;
 }
