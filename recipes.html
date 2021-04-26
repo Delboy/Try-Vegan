@@ -9,7 +9,7 @@
     <meta name="keywords" content="try vegan, vegan trial, vegan, veganism">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Try Vegan</title>
+    <title>Try Vegan - Recipes</title>
 </head>
 
 <body>
@@ -25,16 +25,48 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li>
-                    <select id="recipes-nav" name="recipes">
+                    <div class="dropdown">
+                        <button class="dropbtn">Recipes
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Breakfast</a>
+                          <a href="#">Lunch</a>
+                          <a href="#">Dinner</a>
+                        </div>
+                      </div>
+                    
+                    <!-- <select id="recipes-nav" name="recipes">
                         <option disabled selected>Recipes</option>
                         <option><a href="#">Breakfast</a></option>
                         <option><a href="#">Lunch</a></option>
                         <option><a href="#">Desert</a></option>
-                    </select>
+                    </select> -->
 
                 </li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </nav>
     </header>
+    <section><div id="recipe-img"></div>
+        <div id="recipe-cover-text">
+            <h3>Vegan Recipes</h3><br>
+            <p>Try these 100% vegan recipes for all occasions.</p>
+        </div></section>
+    <section>Recipes
+        <div>Breakfast</div>
+        <div>Lunch</div>
+        <div>Dinner</div>
+    </section>
+    <footer>
+        <div id="social-links">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        </div>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/a02791d223.js" crossorigin="anonymous"></script>
 </body>
