@@ -172,6 +172,13 @@ nav a:hover {
     display: block;
 }
 
+/* anchor points for sections to stop the nav bar from covering content */
+
+#anchor1, #anchor2, #anchor3{
+    position: relative;
+    bottom: 100px;
+}
+
 /* hero section */
 
 #hero {
@@ -495,4 +502,9 @@ footer {
 
 .cook, .serves {
     margin-top: .5em;
+}
+
+#anchor1, #anchor2, #anchor3{
+    position: relative;
+    bottom: 100px;
 }
