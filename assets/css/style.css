@@ -134,7 +134,7 @@ nav a:hover {
     border-bottom: 1px solid rgb(226, 98, 98);
 }
 
-/* practice drop down */
+/* drop down menu */
 
 .dropdown {
     float: right;
@@ -144,6 +144,7 @@ nav a:hover {
 .dropdown .dropbtn {
     font-family: inherit;
     font-size: 1em;
+    letter-spacing: inherit;
     color: inherit;
     padding: 0 16px;
     background-color: inherit;
