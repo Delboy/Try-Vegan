@@ -301,6 +301,12 @@ nav a:hover {
     text-align: center;
 }
 
+.change-button {
+    text-align: center;
+    clear: both;
+    margin-top: 2em;
+}
+
 #ready {
     color: rgb(226, 98, 98);
     margin: 1em 0 1em;
@@ -315,6 +321,7 @@ nav a:hover {
     height: 2em;
     margin: 0 auto;
     padding-top: 0.5em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -449,17 +456,19 @@ footer {
 }
 
 .container {
-    margin: 0 3em;
-    height: 600px;
-    border: 1px solid red;
+    margin: 3em 3em;
+    padding-top: 2em;
+    display: block;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     clear: both;
 }
 
 
-#ingredients {
-    
+#ingredients, #method {
+    height: fit-content;
     width: 400px;
-    margin: 1em 0 1em 4em;
+    margin: 2em 0 2em 4em;
     float: left;
     display: inline-block;
 }
@@ -474,20 +483,9 @@ footer {
 }
 
 #method li {
+    margin-top: 1em;
     padding-left: .5em;
     text-align: left;
-}
-
-#method {
-    height: 600px;
-    width: 400px;
-    margin: 1em 3em 0 3em;
-    float: right;
-    display: inline-block;
-  
-}
-#method li {
-    margin-top: 1em;
 }
 
 .recipe-header {
