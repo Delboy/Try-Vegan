@@ -48,6 +48,77 @@
             </ul>
         </nav>
     </header>
+    <section>
+
+        <form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
+            <h2>Sign up today for our FREE 14 day meal plan!</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" class="text-input-name" name="first_name" type="text" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" class="text-input-name" name="last_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input-email" id="email" name="email_address" required>
+            
+            <div id="age-range">
+            <p>Age:</p>
+            <label for="age">Under 20</label>
+            <input type="radio" id="road" name="age" value="under 20" required>
+            <label for="trail">21-30</label>
+            <input type="radio" id="trail" name="age" value="21-30" required>
+            <label for="both">31-40</label>
+            <input type="radio" id="both" name="age" value="31-40" required>
+            <label for="both">41-50</label>
+            <input type="radio" id="both" name="age" value="41-50" required>
+            <label for="both">51-60</label>
+            <input type="radio" id="both" name="age" value="51-60" required>
+            <label for="both">60 and above</label>
+            <input type="radio" id="both" name="age" value="60 and above" required>
+            </div>
+            
+
+            <div id="reason">
+            <p>Reasons for wanting to go vegan?</p>
+			<label for="animals-checkbox">Animals</label>
+            <input type="checkbox" id="animals-checkbox" name="animals">
+
+			<label for="health-checkbox">Health</label>
+            <input type="checkbox" id="health-checkbox" name="health">
+			
+            <label for="enviroment-checkbox">Enviroment</label>
+            <input type="checkbox" id="enviroment-checkbox" name="enviroement">
+            <label for="other">Other</label>
+            <input type="text" class="text-input">
+            </div>
+            
+            <input id="join-button" type="reset" value="Clear">
+            <input id="join-button" type="submit" value="Send">
+
+
+        </form>
+        <!-- <div> -->
+        <!-- <h1> Sign up today for our FREE 14 day meal plan</h1>
+        <form>
+            
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" placeholder="Enter your first name">
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" placeholder="Enter your last name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="age">Age:</label>
+            <input type="radio">
+
+
+        </div>
+
+        </form> -->
+        <div id="signup-img"></div>
+    </section>
     <footer>
         <div id="social-links">
             <ul>

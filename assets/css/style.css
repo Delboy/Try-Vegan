@@ -505,7 +505,49 @@ footer {
     margin-top: .5em;
 }
 
-#anchor1, #anchor2, #anchor3{
-    position: relative;
-    bottom: 100px;
+/* **************Sign up Page*********** */
+
+#signup-form {
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.text-input-name {
+    background: transparent;
+    color: inherit;
+    width: 100px;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(104, 104, 104, .5);
+    border-radius: 2px;
+}
+
+.text-input-email {
+    background: transparent;
+    color: inherit;
+    width: 200px;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(104, 104, 104, .5);
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: rgb(226, 98, 98);
+}
+
+#age-range {
+    width: 250px;
+    border: 1px solid red;
+}
+
+#reason {
+    width: 250px;
+    
+    border: 1px solid green;
+}
+
+#join-button {
+
+    border: 1px solid blue;
 }
