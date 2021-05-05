@@ -189,7 +189,7 @@ nav a:hover {
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url(/assets/images/watermelon.jpg)no-repeat center center;
+    background: url(../images/watermelon.jpg)no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     clear: both;
@@ -279,8 +279,6 @@ nav a:hover {
     width: 400px;
 }
 
-#left-section a {}
-
 #left-section {
     width: 30%;
     height: 100%;
@@ -340,7 +338,7 @@ nav a:hover {
 #eat-image {
     height: 600px;
     width: 900px;
-    background: url(/assets/images/table-eat.jpg);
+    background: url(../images/table-eat.jpg);
     filter: brightness(1.1);
     background-size: cover;
     margin: 2em auto;
@@ -395,7 +393,7 @@ footer {
 #recipe-cover-img {
     width: 100%;
     height: 600px;
-    background: url(/assets/images/food-layout.jpg)no-repeat center center;
+    background: url(../images/food-layout.jpg)no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     clear: both;
@@ -436,7 +434,7 @@ footer {
     display: inline-block;
     margin-top: 1em;
     margin-left: 3em;
-    background: url(/assets/images/pancake2.jpg) no-repeat center center;
+    background: url(../images/pancake2.jpg) no-repeat center center;
     background-size: cover;
     float: left;
 }
@@ -447,7 +445,7 @@ footer {
     display: inline-block;
     margin-top: 1em;
     margin-left: 3em;
-    background: url(/assets/images/burrito.jpg) no-repeat center center;
+    background: url(../images/burrito.jpg) no-repeat center center;
     background-size: cover;
     float: left;
 }
@@ -458,7 +456,7 @@ footer {
     display: inline-block;
     margin-top: 1em;
     margin-left: 3em;
-    background: url(/assets/images/peanut.jpg) no-repeat center center;
+    background: url(../images/peanut.jpg) no-repeat center center;
     background-size: cover;
     float: left;
 }
@@ -508,16 +506,23 @@ footer {
 /* **************Sign up Page*********** */
 
 #signup-form {
-    width: fit-content;
+    width: 900px;
+    padding: 1em;
+    margin: 2em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid black;
+}
+
+form h2 {
+    margin: .5em 0;
 }
 
 .text-input-name {
     background: transparent;
     color: inherit;
-    width: 100px;
+    width: 350px;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 1em 1em 20px 0;
     border: 1px solid rgb(104, 104, 104, .5);
     border-radius: 2px;
 }
@@ -525,11 +530,12 @@ footer {
 .text-input-email {
     background: transparent;
     color: inherit;
-    width: 200px;
+    width: 880px;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 1em 1em 20px 0;
     border: 1px solid rgb(104, 104, 104, .5);
     border-radius: 2px;
+    
 }
 
 .text-input:hover {
@@ -538,16 +544,60 @@ footer {
 
 #age-range {
     width: 250px;
-    border: 1px solid red;
+    display: inline-block;
+    
 }
 
+input[type="radio"] {
+    margin: .3em 3em;
+}
+
+
 #reason {
-    width: 250px;
+    width: 600px;
+    margin-left: 1.5em;
+    display: inline-block;
+    position: relative;
+    bottom: 4em;
     
-    border: 1px solid green;
+}
+
+input[type="checkbox"] {
+    margin: 1em;
+    text-align: left;
+    display: inline-block;
+}
+
+#other {
+    
+    font-family: inherit;
+    font-size: inherit;
+    font-style: italic;
+    color: inherit;
+    width: 100%;
+    padding: .25em;
+    border: 1px solid rgb(104, 104, 104, .5);
+}
+
+#buttons {
+    display: block;
+    height: 2em;
+    text-align: right;
+    
+}
+
+#clear-button {
+    color: white;
+    background-color: rgb(104, 104, 104, .5);
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
 #join-button {
-
-    border: 1px solid blue;
+    background-color: rgb(104, 104, 104, .5);
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 2px;
 }
+
