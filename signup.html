@@ -13,7 +13,13 @@
 </head>
 
 <body>
+
+    <!-- Header section -->
+
     <header>
+
+        <!-- Navigation bar -->
+
         <nav>
         <div id="logo-full">
             <a href="index.html">
@@ -24,6 +30,9 @@
         
             <ul>
                 <li><a href="index.html">Home</a></li>
+
+                <!-- dropdown menu -->
+
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">Recipes
@@ -36,22 +45,22 @@
                           <a href="/recipes.html#anchor3">Desert</a>
                         </div>
                       </div>
-                    <!-- <select id="recipes-nav" name="recipes">
-                        <option disabled selected>Recipes</option>
-                        <option><a href="recipes.html">Breakfast</a></option>
-                        <option><a href="recipes.html">Lunch</a></option>
-                        <option><a href="recipes.html">Desert</a></option>
-                    </select> -->
-
                 </li>
+
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </nav>
     </header>
-    <section>
 
+    <!-- Form section -->
+
+    <section id="form">
+        <div id="signup-img"></div>
         <form method="POST" action="https://formdump.codeinstitute.net/" id="signup-form">
             <h2>Sign up today for our FREE 14 day meal plan!</h2>
+
+            <!-- Name -->
+
             <label for="fname">First Name:</label>
             <input id="fname" class="text-input-name" name="first_name" type="text" required>
             
@@ -60,9 +69,13 @@
 
             <br>
             
+            <!-- Email -->
+
             <label for="email">Email Address:</label>
             <input type="email" class="text-input-email" id="email" name="email_address" required>
             
+            <!-- Age -->
+
             <div id="age-range">
                 <p>Age:</p>
                 
@@ -90,6 +103,8 @@
                 <label for="both">60 and above</label>
             </div>
             
+            
+            <!-- Reasons -->
 
             <div id="reason">
             <p>Reasons for wanting to go vegan?</p>
@@ -105,38 +120,22 @@
             <br>
             
             <input id="other" type="text" name="other" placeholder="other...">
-            
-            <!-- <textarea name="other" placeholder="Other..." rows="20" cols="30"></textarea> -->
             </div>
             
+            <!-- Clear and Send buttons -->
+
             <div id="buttons">
             <input id="clear-button" type="reset" value="Clear">
             <input id="join-button" type="submit" value="Send">
             </div>
 
         </form>
-        <!-- <div> -->
-        <!-- <h1> Sign up today for our FREE 14 day meal plan</h1>
-        <form>
-            
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" placeholder="Enter your first name">
-
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" placeholder="Enter your last name">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email">
-
-            <label for="age">Age:</label>
-            <input type="radio">
-
-
-        </div>
-
-        </form> -->
-        <div id="signup-img"></div>
+        
+        
     </section>
+
+    <!-- Footer w/ social media links -->
+
     <footer>
         <div id="social-links">
             <ul>
