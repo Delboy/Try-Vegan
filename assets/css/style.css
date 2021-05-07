@@ -768,11 +768,71 @@ input[type="checkbox"] {
         #breakfast-img, #lunch-img, #desert-img {
             width: 100vw;
             margin: 0;
-            /* height: auto; */
+        
         }
 
         #ingredients, #method {
             width: fit-content;
             margin: 1em 1em 1em 2em;
-            box-shadow: 0;
     }
+
+        /* Sign up page */
+
+        #form {
+            height: fit-content;
+        }
+
+        #signup-img {
+           margin: 5em 0 5em 0;
+        }
+
+        #signup-form {
+            position: absolute;
+            width: 100vw;
+            height: fit-content;
+            margin: 5em 0 0 0;
+            border: 0;
+            top: 75px;
+            max-width: 100%;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+
+        #signup-form h2 {
+            text-align: center;
+        }
+
+        .text-input-name {
+            width: 90%;
+            margin: 1em 1em 20px 0;
+        }
+        
+        .text-input-email {
+            width: 90%;
+        }
+
+        #age-range {
+            display: block;
+            clear: both;
+            margin-bottom: 1em;
+        }
+        #reason {
+            margin: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        
+
+        #other {
+            width: 90%;
+        }
+
+        #footer {
+            clear: both;
+        }
+
+        #buttons {
+            text-align: center;
+            margin: 1em;
+        }
+        
