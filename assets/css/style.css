@@ -117,7 +117,7 @@ nav li {
 
 }
 
-nav a:hover {
+nav li a:hover {
     border-bottom: 1px solid rgb(226, 98, 98);
 }
 
@@ -593,8 +593,8 @@ form h2 {
 
 }
 
-.text-input:hover {
-    border-color: rgb(226, 98, 98);
+.text-input-name:hover, .text-input-email:hover {
+    border: 1px solid rgb(104, 104, 104, .75);
 }
 
 #age-range {
@@ -633,6 +633,10 @@ input[type="checkbox"] {
     border: 1px solid rgb(104, 104, 104, .5);
 }
 
+#other:hover {
+    border: 1px solid rgb(104, 104, 104, .75);
+}
+
 /* buttons */
 
 #buttons {
@@ -659,9 +663,9 @@ input[type="checkbox"] {
 
 /* ********************** MEDIA QUERIES ********************** */
 
-/* For larger to medium screens size 1320px and down */
+/* For larger to medium screens size 1490px and down */
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1490px) {
     iframe {
         height: 150px;
         width: 300px;
@@ -671,9 +675,34 @@ input[type="checkbox"] {
         height: 200px;
     }
 
+    
+
     /* For medium screens size 1000px and down */
 
     @media screen and (max-width: 1000px) {
+        
+        /* index page */
+
+        #cover-text {
+            background:rgb(255, 255, 255, 0.75);
+            color: rgb(226, 98, 98);
+            top: 450px;
+        }
+
+        iframe {
+            height: 400px;
+            width: 600px;
+        }
+
+        #eat-image {
+            width: 90%;
+        }
+        
+        #recipe-text {
+            margin: 1em auto;
+            display: block;
+            bottom: 0;
+        }
         #reasons {
             display: block;
             margin: 0 auto;
@@ -685,35 +714,83 @@ input[type="checkbox"] {
             height: fit-content;
         }
 
-        iframe {
-            height: 400px;
-            width: 600px;
+        /* Sign up page */
+
+        #signup-form {
+            width: 90%;
+            margin: 1em auto;
         }
-    }
 
-    /* For small screens size 650px and down */
+        #fname {
+            width: 100%;
+        }
 
-    @media screen and (max-width: 650px) {
+        #lname {
+            width: 100%;
+        }
+
+        #email {
+            width: 100%;
+        }
+
+        #age-range {
+            display: inline-block;
+        }
+
+        #reason {
+            width: 55%;
+            bottom: 60px;
+            display: inline-block;
+        }
+    
+        #other {
+            width: 90%;
+        }
+
+        
+        
+
+    /* For small screens size 690px and down */
+
+    @media screen and (max-width: 690px) {
 
         /* Index page */
 
         #logo-full {
-            width: 100vw;
-            margin-left: 15%;
+            width: 100;
+            height: fit-content;
+            text-align: center;
         }
 
-        #try-logo, #logo {
-            margin-left: .25em;
+        #try-logo {
+            width: fit-content;
+            float: none;
+            display: inline-block;
+            margin: 0;
+        }
+
+        #logo {
+            width: fit-content;
+            float: none;
+            display: inline-block;
+            margin: 0;
+            
+           
+        }
+
+        nav ul {
+            margin-left: 10%;
+            float: none;
+            display: inline-block;
+            
         }
 
         nav {
             width: 100vw;
+            text-align: center;
         }
 
         #cover-text {
-            background:rgb(255, 255, 255, 0.75);
-            color: rgb(226, 98, 98);
-            top: 450px;
             left: 0;
         }
 
@@ -730,13 +807,6 @@ input[type="checkbox"] {
             width: 90%;
             height: auto;
             margin-top: 2em;
-        }
-
-        #recipe-text {
-            margin: 1em auto;
-            display: block;
-            bottom: 0;
-            margin: 1px solid red;
         }
         
         #sign-up-link {
@@ -769,8 +839,8 @@ input[type="checkbox"] {
         .container {
             width: 100%;
             margin: 0 0 1.5em;
+            overflow: hidden;
             box-shadow: none;
-            /* border-bottom: 1px solid rgb(104, 104, 104, 0.25); */
         }
 
         .recipe-header {
@@ -786,6 +856,7 @@ input[type="checkbox"] {
         #ingredients, #method {
             width: fit-content;
             margin: 1em 1em 1em 2em;
+            padding: 1em;
     }
 
         /* Sign up page */
@@ -833,18 +904,14 @@ input[type="checkbox"] {
             bottom: 0;
             width: 100%;
         }
-        
 
-        #other {
-            width: 90%;
-        }
-
-        #footer {
-            clear: both;
-        }
 
         #buttons {
             text-align: center;
             margin: 1em;
         }
         
+        #footer {
+            clear: both;
+        }
+    }
