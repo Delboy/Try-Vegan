@@ -177,7 +177,7 @@ nav a:hover {
 #anchor2,
 #anchor3 {
     position: relative;
-    bottom: 100px;
+    bottom: 200px;
 }
 
 /* hero section */
@@ -413,6 +413,7 @@ footer {
     height: 600px;
     background: url(../images/food-layout.jpg)no-repeat center center;
     background-size: cover;
+    margin-bottom: 1em;;
 }
 
 #recipe-cover-text {
@@ -430,6 +431,11 @@ footer {
 }
 
 /* Recipes */
+
+.section-header {
+    font-size: 2em;
+    margin-left: 2em;
+}
 
 #recipes {
     margin-top: 1em;
@@ -693,7 +699,7 @@ input[type="checkbox"] {
 
         #logo-full {
             width: 100vw;
-            margin-left: 20%;
+            margin-left: 15%;
         }
 
         #try-logo, #logo {
@@ -747,18 +753,24 @@ input[type="checkbox"] {
 
         #recipe-cover-img {
             margin-top: 5.5em;
+            height: 400px;
         }
 
         #recipe-cover-text {
-            top: 600px;
+            top: 400px;
             left: 0;
+        }
+
+        .section-header {
+            margin: 0 .5em;
+            border-bottom: 1px solid rgb(104, 104, 104, 0.25)
         }
 
         .container {
             width: 100%;
-            margin: 0;
+            margin: 0 0 1.5em;
             box-shadow: none;
-            border-bottom: 1px solid rgb(104, 104, 104, 0.25);
+            /* border-bottom: 1px solid rgb(104, 104, 104, 0.25); */
         }
 
         .recipe-header {
@@ -783,7 +795,7 @@ input[type="checkbox"] {
         }
 
         #signup-img {
-           margin: 5em 0 5em 0;
+           margin: 5em 0 5.5em 0;
         }
 
         #signup-form {
