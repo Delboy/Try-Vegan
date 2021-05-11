@@ -20,32 +20,28 @@
 
         <!-- Navigation bar -->
         <nav>
-            <div id="logo-full">
-                <a href="index.html">
-                    <h1 id="try-logo">Try</h1>
-                    <h1 id="logo">Vegan<i class="fas fa-seedling"></i></h1>
-                </a>
-            </div>
+            
+            <a href="index.html">
+                <h1 id="try-logo">Try</h1>
+                <h1 id="logo">Vegan<i class="fas fa-seedling"></i></h1>
+            </a>
 
             <ul>
                 <li><a href="index.html">Home</a></li>
-
                 <!-- dropdown menu on nav bar -->
-
-                <!-- <li> -->
-                    <div class="dropdown">
-                        <button class="dropbtn">Recipes
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="recipes.html">All</a>
-                            <a href="/recipes.html#anchor1">Breakfast</a>
-                            <a href="/recipes.html#anchor2">Lunch</a>
-                            <a href="/recipes.html#anchor3">Desert</a>
-                        </div>
+                <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Recipes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="recipes.html">All</a>
+                        <a href="/recipes.html#anchor1">Breakfast</a>
+                        <a href="/recipes.html#anchor2">Lunch</a>
+                        <a href="/recipes.html#anchor3">Desert</a>
                     </div>
-                <!-- </li> -->
-
+                </div>
+                </li>
                 <li><a href="signup.html">Sign up</a></li>
             </ul>
         </nav>
@@ -56,7 +52,8 @@
     <section id="hero">
         <div id="hero-image"></div>
         <div id="cover-text">
-            <h3><a href="/signup.html"><em>Try our 14 day meal plan absolutley <span class="underline">FREE!</span></em></h3></a>
+            <a href="/signup.html"><h3><em>Try our 14 day meal plan absolutley</em> <span class="underline">FREE!</span></h3>
+            </a>
         </div>
     </section>
 
@@ -67,9 +64,8 @@
 
         <!-- Left section -->
 
-        <div id="reasons">
-
-            <h2><i class="fas fa-paw"></i></h2>
+        <div class="reasons">
+            <i class="fas fa-paw"></i>
             <h2>Animals</h2>
             <p>Going vegan is one of the best things you can do to help stop animal cruelty. By refusing to pay for
                 animal products, you reduce the demand for them, which ensures fewer animals are bred to suffer and die
@@ -77,8 +73,7 @@
             </p>
             <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OqPflP_hXyY"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <br>
             <a href="https://www.landofhopeandglory.org/" target="_blank">Land of Hope and Glory</a>
@@ -86,10 +81,8 @@
 
         <!-- Right Section -->
 
-        <div id="reasons">
-
-
-            <h2><i class="fas fa-heart"></i></h2>
+        <div class="reasons">
+            <i class="fas fa-heart"></i>
             <h2>Health</h2>
             <p>By skipping animal products you remove cholesterol from your diet and dramatically lower your staturated
                 fat. All of this reduces risk of certain health conditions, including ischemic heart disease, type 2
@@ -97,8 +90,7 @@
             </p>
             <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Jf44vLndiRM"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <br>
             <a href="https://www.cowspiracy.com/" target="_blank">Cowspiracy</a>
@@ -106,19 +98,16 @@
 
         <!-- Middle Section -->
 
-        <div id="reasons">
-
-            <h2><i class="fas fa-globe-americas"></i></h2>
+        <div class="reasons">
+            <i class="fas fa-globe-americas"></i>
             <h2>Environment </h2>
             <p>The animal agriculture industry is one of the biggest polluters in the world. It is also the biggest
                 contriubter to deforestation and species loss. A vegan diet needs far less land to produce and therefore
                 dramatically decreases your carbon footprint.
-
             </p>
             <br>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nV04zyfLyN4"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
             <br>
             <a href="https://www.whatthehealthfilm.com/" target="_blank">What the health</a>
@@ -129,17 +118,16 @@
 
     <section id="recipe-link">
         <div class="change-button">
-            <h3 id="ready">Ready to change?</h3>
+            <h3>Ready to change?</h3>
             <h4 id="sign-up-link"><a href="signup.html">Click here to sign up to our 14 day vegan food plan!</a></h4>
         </div>
-        <div id="eat-image"></div>
+        <img id="eat-image" src="assets/images/table-eat.jpg" alt="a group of people eating around a dinner table">
 
-        <img id="pancake" src="assets/images/pancake.jpg">
+        <img id="pancake" src="assets/images/pancake.jpg" alt="a stack of pancakes with a section cut out">
 
         <div id="recipe-text">
             <h3><a href="recipes.html"><em>Head over to our recipe page to sample some yummy vegan food!</em></a></h3>
         </div>
-        
     </section>
 
     <!-- Footer w/ Social links -->
@@ -151,10 +139,12 @@
                 <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
         </div>
     </footer>
 
     <!-- font awesome script -->
+    
     <script src="https://kit.fontawesome.com/a02791d223.js" crossorigin="anonymous"></script>
 
 </body>
