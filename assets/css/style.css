@@ -10,7 +10,7 @@
 
 body {
     font-family: lato, sans-serif;
-    color: rgb(104, 104, 104)
+    color: rgb(100, 100, 100);
 }
 
 a {
@@ -86,7 +86,7 @@ nav ul {
     /* animation for navbar dropping */
 
     animation-name: navdrop;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 
 /* creates animation for navbar droppping */
@@ -97,7 +97,7 @@ nav ul {
     }
 
     50% {
-        transform: translateY(10px);
+        transform: translateY(20px);
     }
 
     100% {
@@ -347,7 +347,7 @@ iframe {
 }
 
 #recipe-text {
-    color: rgb(104, 104, 104);
+    color: rgb(100, 100, 100);
     font-size: 2em;
     font-family: lato, sans-serif;
     text-align: center;
@@ -401,7 +401,7 @@ footer {
 }
 
 #recipe-cover-text {
-    color: rgb(104, 104, 104);
+    color: rgb(100, 100, 100);
     font-size: 1.5em;
     font-family: lato, sans-serif;
     text-align: left;
@@ -464,7 +464,7 @@ footer {
 
 .ingredients li {
     margin-top: 1em;
-    border-bottom: 1px solid rgb(104, 104, 104, 0.25);
+    border-bottom: 1px solid rgb(100, 100, 100, 0.25);
 }
 
 #recipes h5 {
@@ -544,7 +544,7 @@ form h2 {
     width: 350px;
     height: 25px;
     margin: 1em 1em 20px 0;
-    border: 1px solid rgb(104, 104, 104, .5);
+    border: 1px solid rgb(100, 100, 100, .5);
     border-radius: 2px;
 }
 
@@ -553,13 +553,13 @@ form h2 {
     width: 880px;
     height: 25px;
     margin: 1em 1em 20px 0;
-    border: 1px solid rgb(104, 104, 104, .5);
+    border: 1px solid rgb(100, 100, 100, .5);
     border-radius: 2px;
 }
 
 .text-input-name:hover,
 .text-input-email:hover {
-    border: 1px solid rgb(104, 104, 104, .75);
+    border: 1px solid rgb(100, 100, 100, .75);
 }
 
 #age-range {
@@ -592,11 +592,11 @@ input[type="checkbox"] {
     color: inherit;
     width: 100%;
     padding: .25em;
-    border: 1px solid rgb(104, 104, 104, .5);
+    border: 1px solid rgb(100, 100, 100, .5);
 }
 
 #other:hover {
-    border: 1px solid rgb(104, 104, 104, .75);
+    border: 1px solid rgb(100, 100, 100, .75);
 }
 
 /* buttons */
@@ -609,14 +609,14 @@ input[type="checkbox"] {
 
 #clear-button {
     color: white;
-    background-color: rgb(104, 104, 104, .5);
+    background-color: rgb(100, 100, 100, .5);
     padding: .5em;
     border: 1px solid black;
     border-radius: 2px;
 }
 
 #join-button {
-    background-color: rgb(104, 104, 104, .5);
+    background-color: rgb(100, 100, 100, .5);
     padding: .5em;
     border: 1px solid black;
     border-radius: 2px;
@@ -729,7 +729,12 @@ input[type="checkbox"] {
             margin: 0;
         }
 
+        #site-links {
+            display: inline-block;
+        }
+
         nav ul {
+            width: 100%;
             float: none;
             display: inline-block;
         }
@@ -737,6 +742,10 @@ input[type="checkbox"] {
         nav {
             width: 100vw;
             text-align: center;
+        }
+
+        #cover-text {
+            left: 0;
         }
 
         iframe {
@@ -759,6 +768,10 @@ input[type="checkbox"] {
             height: 3em;
         }
 
+        #recipe-text {
+            width: 90%;
+        }
+
         #social-links li {
             padding: 0;
             margin: .25em;
@@ -778,7 +791,7 @@ input[type="checkbox"] {
 
         .section-header {
             margin: 0 .5em;
-            border-bottom: 1px solid rgb(104, 104, 104, 0.25)
+            border-bottom: 1px solid rgb(100, 100, 100, 0.25)
         }
 
         .container {
