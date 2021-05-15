@@ -212,8 +212,8 @@ nav li a:hover {
     height: 200px;
     background-color: rgb(255, 255, 255, 0.75);
     border-radius: 5px;
-    position: absolute;
-    top: 200px;
+    position: relative;
+    bottom: 400px;
     left: 50px;
 
     /* animation for cover text */
@@ -408,8 +408,8 @@ footer {
     width: 300px;
     height: 125px;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 450px;
+    position: relative;
+    top: 400px;
     left: 50px;
     padding: 0.5em;
 }
@@ -624,6 +624,25 @@ input[type="checkbox"] {
 
 /* ********************** MEDIA QUERIES ********************** */
 
+/* For extra large screens size 2000px and up */
+
+    @media screen and (min-width: 2000px) {
+        body {
+            max-width: 2000px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            width: 2000px;
+        }
+
+        /* #cover-text {
+            position: relative;
+            
+        }
+         */
+    }
+
 /* For larger to medium screens size 1490px and down */
 
     @media screen and (max-width: 1490px) {
@@ -643,7 +662,8 @@ input[type="checkbox"] {
         /* index page */
 
         #cover-text {
-            top: 450px;
+            bottom: 250px;
+            left: 0;
         }
 
         iframe {
@@ -744,10 +764,6 @@ input[type="checkbox"] {
             text-align: center;
         }
 
-        #cover-text {
-            left: 0;
-        }
-
         iframe {
             width: 90%;
             height: auto;
@@ -785,7 +801,7 @@ input[type="checkbox"] {
         }
 
         #recipe-cover-text {
-            top: 400px;
+            top: 225px;
             left: 0;
         }
 
