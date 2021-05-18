@@ -130,6 +130,7 @@ nav li a:hover {
 .dropdown {
     float: right;
     overflow: hidden;
+    padding: 0 16px;
 }
 
 .dropdown .dropbtn {
@@ -137,7 +138,6 @@ nav li a:hover {
     font-size: 1em;
     letter-spacing: inherit;
     color: inherit;
-    padding: 0 16px;
     background-color: inherit;
 }
 
@@ -488,6 +488,8 @@ footer {
 
 /* ********************** SIGNUP PAGE ********************** */
 
+/* form section*/
+
 /* image behind form */
 
 #signup-img {
@@ -496,8 +498,6 @@ footer {
     background: url(../images/happy.jpg)no-repeat center center;
     background-size: cover;
 }
-
-/* form */
 
 #form {
     height: 600px;
@@ -650,15 +650,12 @@ input[type="checkbox"] {
 /* For larger to medium screens size 1490px and down */
 
     @media screen and (max-width: 1490px) {
-        iframe {
-            height: 150px;
-            width: 300px;
-        }
-
+      
         .method {
             width: 90%;
         }
     }
+    
 /* For medium screens size 1000px and down */
 
     @media screen and (max-width: 1000px) {
