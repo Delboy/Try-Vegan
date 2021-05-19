@@ -4,32 +4,26 @@
 
 ![image](wireframes/responsive.png)
 
-## USer Experience (UX)
+## Design
 
-Vistors to this page would be people interested in learning more about veganism and especially vegan food. On visting the site they should be able to:
-- Understand the main purpose of the website.
-- Navigate around the site and to all page.
+- __Colour scheme__
+    - The colour scheme I chose for the site is pink (RGB 26,98,98) and grey (RGB 100,100,100).
+    - All grey links will either highlight pink or show a pink underline on hover.  
 
- 
-- __Design__
-    - Colour scheme
-        - The colour scheme I chose for the site is pink (RGB 26,98,98) and grey (RGB 100,100,100).
-        - All grey links will either highlight pink or show a pink underline on hover.  
+- __Typography__
+    - Lato is the main font throughout the site using Sans serif as the back up. Lato is a very standard looking font and easy to read.
+    - Dancing Script was used once to create part of the logo. The font has a 'flow' giving the logo a gentle nature which is fitting for the site.
 
-    - Typography
-        - Lato is the main font throughout the site using Sans serif as the back up. Lato is a very standard looking font and easy to read.
-        - Dancing Script was used once to create part of the logo. The font has a 'flow' giving the logo a gentle nature which is fitting for the site.
-
-    - Imagery
-        - All of the images have a light and airy feel. The main hero image on the landing page also fits the colour scheme with the pink of the watermelon.
-        - The recipe images are simplisitic which ties in with the look of the site.
+- __Imagery__
+    - All of the images have a light and airy feel. The main hero image on the landing page also fits the colour scheme with the pink of the watermelon.
+    - The recipe images are simplisitic which ties in with the look of the site.
 
 - __Wireframes__
-    ### Home page wireframe <br> ![image](wireframes/home.png)
+    ## Index page wireframe <br> ![image](wireframes/indexWF.png)
 
-    ### Recipe page wireframe <br> ![image](wireframes/recipes.png)
+    ## Recipe page wireframe <br> ![image](wireframes/recipesWF.png)
 
-    ### Sign up page wireframe <br> ![image](wireframes/signup.png)
+    ## Sign up page wireframe <br> ![image](wireframes/signupWF.png)
 
 ## Features
 
@@ -87,6 +81,7 @@ Vistors to this page would be people interested in learning more about veganism 
     - The sign up page allows the user to sign up for the 14 day meal plan. 
     - The user will be asked for their name and email address along with their age range and the reasons for wanting to try veganism. 
     
+    ![image](wireframes/form.png)
 
 ### Features left to implelement
 
@@ -102,19 +97,43 @@ Vistors to this page would be people interested in learning more about veganism 
 - __Further Testing__
     - The site was tested on google chrome, edge and safari browsers.
     - The site was viewed on multiple devices such as desktop (including an ultrawide monitor), iphone, ipad, ipad mini, and laptop. 
-    - All links were checked thouroughly to make sure they direct the user to the correct location.
+    - All links were checked extensively to make sure they direct the user to the correct location.
     - All media players were tested to work correctly.
-
-
-## Unfixed Bugs
+    - The form was tested multiple times with various inputs all resulting in a successful submit.
 
 ## Deployment
 
+ - The website was deployed to Github pages. This was done as follows:
+    - From the Github repository go to 'Settings'.
+    - From there navigate to the section 'Pages'. 
+    - From the dropdown menu in the setion labeled 'Source' choose the option 'Master Branch' and click 'Save'.
+    - Once saved a notification informing you the site has been published will appear with a link to the website.
+
+    The live link can be found here - https://delboy.github.io/Try-Vegan/
+
 ## Credits
 
-### Content
+### __Content__
 
-### Media
+- The idea for the dropdown menu was shown to me by Ed Bradley at [W3Schools](https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)
+- The idea for the animations accross the page was influenced by The Net Ninja youtube channel. Specifically this [video](https://www.youtube.com/watch?v=PjR97QzOrJM&t=306s) 
+- The text for the Health section on the home page was taken from [animalaid.org](https://www.animalaid.org.uk/)
+- The vegan pancakes recipe was taken from [Ambitiouskitchen.com](https://www.ambitiouskitchen.com/fluffy-vegan-pancakes/)
+- The vegan burrito recipe was taken from [Frommybowl.com](https://frommybowl.com/rice-bean-burritos/)
+- The peanut butter cookie bars recipe was taken from [lovenadlemons.com](https://www.loveandlemons.com/peanut-butter-chocolate-chip-cookie-bars/)
+- The Icons in the footer and the icon in the logo were taken from [Font Awesome](https://fontawesome.com/)
+
+### __Media__
+
+- The hero and form page image was sourced from the open source site [Pexels](https://www.pexels.com/.) 
+- The picture of people eating around a table on the home page was found [here](https://www.connexionfrance.com/French-news/French-study-finds-social-meals-increase-Covid-contamination)
+- The vegetable spread used on the Recipe page was found at [chooseveg.com]](https://chooseveg.com/blog/what-you-need-to-know-about-the-vegan-food-pyramid/)
+- The images of the pancakes were taken from  [Ambitiouskitchen.com](https://www.ambitiouskitchen.com/fluffy-vegan-pancakes/)
+- The image of the burrito was found on [acouplecooks.com](https://www.acouplecooks.com/vegan-burrito/)
+- The Peanutbutter square image was taken from [lovenadlemons.com](https://www.loveandlemons.com/)
+- The trailer for Land of Hope and Glory was sourced form [Earthling Eds](https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg) youtube channel 
+- The trailer for What the Health was sourced from there [Youtube](https://www.youtube.com/channel/UCDVUqyG8R9Z0diJRU-YO3KA) channel
+- The Cowspiracy trailer was sourced from there [Youtube](https://www.youtube.com/channel/UCamf6YZ_Xo9vbcynZJwvdMA) channel
 
 
 

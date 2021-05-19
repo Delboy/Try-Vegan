@@ -128,8 +128,7 @@ nav li a:hover {
 /* drop down menu */
 
 .dropdown {
-    float: right;
-    overflow: hidden;
+    display: inline-block;
     padding: 0 16px;
 }
 
@@ -170,7 +169,7 @@ nav li a:hover {
 #anchor2,
 #anchor3 {
     position: relative;
-    bottom: 200px;
+    bottom: 225px;
 }
 
 /* hero section */
@@ -736,6 +735,13 @@ input[type="checkbox"] {
 
         /* Index page */
 
+        #try-logo, #logo {
+            font-size: 2em;
+            height: 2em;
+            line-height: 2em;
+            
+        }
+
         #try-logo {
             width: fit-content;
             float: none;
@@ -750,12 +756,17 @@ input[type="checkbox"] {
             margin: 0;
         }
 
+        #cover-text {
+            height: fit-content;
+        }
+
         #site-links {
             display: inline-block;
         }
 
         nav ul {
             width: 100%;
+            line-height: 2em;
             float: none;
             display: inline-block;
         }
@@ -820,6 +831,10 @@ input[type="checkbox"] {
 
         .recipe-header {
             margin: 1em;
+        }
+
+        .cook, .serves {
+            font-size: .9em;
         }
 
         .image {
