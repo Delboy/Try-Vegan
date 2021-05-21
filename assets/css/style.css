@@ -74,6 +74,7 @@ nav {
     opacity: 0.9;
     width: 100%;
     z-index: 5;
+    border-bottom: 1px solid rgb(100, 100, 100, .5);
 }
 
 nav ul {
@@ -446,7 +447,8 @@ footer {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.fa-clock, .fa-utensils {
+.fa-clock,
+.fa-utensils {
     margin-right: .75em;
     margin-left: .5em;
 }
@@ -617,6 +619,7 @@ input[type="checkbox"] {
 #clear-button:hover {
     background: rgb(226, 98, 98, .5);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 #join-button {
@@ -629,280 +632,298 @@ input[type="checkbox"] {
 #join-button:hover {
     background: rgb(226, 98, 98, .5);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 /* ********************** MEDIA QUERIES ********************** */
 
 /* For extra large screens size 2000px and up */
 
-    @media screen and (min-width: 2000px) {
-        body {
-            max-width: 2000px;
-            margin: 0 auto;
-        }
-        
-        nav {
-            width: 2000px;
-        }
+@media screen and (min-width: 2000px) {
+    body {
+        max-width: 2000px;
+        margin: 0 auto;
     }
+
+    nav {
+        width: 2000px;
+    }
+}
 
 /* For larger to medium screens size 1490px and down */
 
-    @media screen and (max-width: 1490px) {
-      
-        .method {
-            width: 90%;
-        }
+@media screen and (max-width: 1490px) {
+
+    .method {
+        width: 90%;
     }
-    
+}
+
 /* For medium screens size 1000px and down */
 
-    @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
-        /* index page */
+    /* index page */
 
-        #cover-text {
-            bottom: 250px;
-            left: 0;
-        }
-
-        iframe {
-            height: 400px;
-            width: 600px;
-        }
-
-        #eat-image {
-            width: 90%;
-            height: auto;
-        }
-
-        #recipe-text {
-            margin: 1em auto;
-            display: block;
-            bottom: 0;
-        }
-
-        .reasons {
-            display: block;
-            margin: 0 auto;
-            width: 90%;
-            height: fit-content;
-        }
-
-        /* Recipe page */
-
-        .method {
-            width: 400px;
-        }
-
-        /* Sign up page */
-
-        #signup-form {
-            width: 90%;
-            margin: 1em auto;
-        }
-
-        #fname {
-            width: 100%;
-        }
-
-        #lname {
-            width: 100%;
-        }
-
-        #email {
-            width: 100%;
-        }
-
-        #age-range {
-            display: inline-block;
-        }
-
-        #reason {
-            width: 55%;
-            bottom: 60px;
-            display: inline-block;
-        }
-
-        #other {
-            width: 90%;
-        }
+    #cover-text {
+        bottom: 250px;
+        left: 0;
     }
+
+    iframe {
+        height: 400px;
+        width: 600px;
+    }
+
+    #eat-image {
+        width: 90%;
+        height: auto;
+    }
+
+    #recipe-text {
+        margin: 1em auto;
+        display: block;
+        bottom: 0;
+    }
+
+    .reasons {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: fit-content;
+    }
+
+    /* Recipe page */
+
+    .method {
+        width: 400px;
+    }
+
+    /* Sign up page */
+
+    #signup-form {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    #fname {
+        width: 100%;
+    }
+
+    #lname {
+        width: 100%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #age-range {
+        display: inline-block;
+    }
+
+    #reason {
+        width: 55%;
+        bottom: 60px;
+        display: inline-block;
+    }
+
+    #other {
+        width: 90%;
+    }
+}
 
 /* For small screens size 690px and down */
 
-    @media screen and (max-width: 690px) {
+@media screen and (max-width: 690px) {
 
-        /* Index page */
+    /* Index page */
 
-        #try-logo, #logo {
-            font-size: 2em;
-            height: 2em;
-            line-height: 2em;
-            
+    #try-logo,
+    #logo {
+        font-size: 2em;
+        height: 2em;
+        line-height: 2em;
+    }
+
+    #try-logo {
+        width: fit-content;
+        float: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    #logo {
+        width: fit-content;
+        float: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    #cover-text {
+        height: fit-content;
+    }
+
+    #site-links {
+        display: inline-block;
+    }
+
+    nav ul {
+        width: 100%;
+        line-height: 2em;
+        float: none;
+        display: inline-block;
+    }
+
+    /* Changes navbar animation from drop to slide */
+
+    @keyframes navdrop {
+        0% {
+            transform: translateX(600px)
         }
-
-        #try-logo {
-            width: fit-content;
-            float: none;
-            display: inline-block;
-            margin: 0;
+    
+        50% {
+            transform: translateX(-10px);
         }
-
-        #logo {
-            width: fit-content;
-            float: none;
-            display: inline-block;
-            margin: 0;
-        }
-
-        #cover-text {
-            height: fit-content;
-        }
-
-        #site-links {
-            display: inline-block;
-        }
-
-        nav ul {
-            width: 100%;
-            line-height: 2em;
-            float: none;
-            display: inline-block;
-        }
-
-        nav {
-            width: 100vw;
-            text-align: center;
-        }
-
-        iframe {
-            width: 90%;
-            height: auto;
-        }
-
-        #eat-image {
-            display: none;
-        }
-
-        #pancake {
-            width: 90%;
-            height: auto;
-            margin-top: 2em;
-        }
-
-        #sign-up-link {
-            width: 90vw;
-            height: 3em;
-        }
-
-        #recipe-text {
-            width: 90%;
-        }
-
-        #social-links li {
-            padding: 0;
-            margin: .25em;
-        }
-
-        /* Recipe page */
-
-        #recipe-cover-img {
-            margin-top: 5.5em;
-            height: 400px;
-        }
-
-        #recipe-cover-text {
-            top: 225px;
-            left: 0;
-        }
-
-        .section-header {
-            margin: 0 .5em;
-            border-bottom: 1px solid rgb(100, 100, 100, 0.25)
-        }
-
-        .container {
-            width: 100%;
-            margin: 0 0 1.5em;
-            overflow: hidden;
-            box-shadow: none;
-        }
-
-        .recipe-header {
-            margin: 1em;
-        }
-
-        .cook, .serves {
-            font-size: .9em;
-        }
-
-        .image {
-            width: 100vw;
-            height: auto;
-            margin: 0
-        }
-
-        .ingredients,
-        .method {
-            width: fit-content;
-            margin: 1em 1em 1em 2em;
-            padding: 1em;
-        }
-
-        /* Sign up page */
-
-        #form {
-            height: fit-content;
-        }
-
-        #signup-img {
-            margin: 5em 0 5.5em 0;
-        }
-
-        #signup-form {
-            position: absolute;
-            width: 100vw;
-            height: fit-content;
-            margin: 5em 0 0 0;
-            border: 0;
-            top: 75px;
-            max-width: 100%;
-            overflow-x: hidden;
-            box-sizing: border-box;
-        }
-
-        #signup-form h2 {
-            text-align: center;
-        }
-
-        .text-input-name {
-            width: 90%;
-            margin: 1em 1em 20px 0;
-        }
-
-        .text-input-email {
-            width: 90%;
-        }
-
-        #age-range {
-            display: block;
-            clear: both;
-            margin-bottom: 1em;
-        }
-
-        #reason {
-            margin: 0;
-            bottom: 0;
-            width: 100%;
-        }
-
-        #buttons {
-            text-align: center;
-            margin: 1em;
-        }
-
-        #footer {
-            clear: both;
+    
+        100% {
+            transform: translateX(0);
         }
     }
+
+    nav {
+        width: 100vw;
+        text-align: center;
+    }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    #eat-image {
+        display: none;
+    }
+
+    #pancake {
+        width: 90%;
+        height: auto;
+        margin-top: 2em;
+    }
+
+    #sign-up-link {
+        width: 90vw;
+        height: 3em;
+    }
+
+    #recipe-text {
+        width: 90%;
+    }
+
+    #social-links li {
+        padding: 0;
+        margin: .25em;
+    }
+
+    /* Recipe page */
+
+    #recipe-cover-img {
+        margin-top: 5.5em;
+        height: 400px;
+    }
+
+    #recipe-cover-text {
+        top: 225px;
+        left: 0;
+    }
+
+    .section-header {
+        margin: 0 .5em;
+        border-bottom: 1px solid rgb(100, 100, 100, 0.25)
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 0 1.5em;
+        overflow: hidden;
+        box-shadow: none;
+    }
+
+    .recipe-header {
+        margin: 1em;
+    }
+
+    .cook,
+    .serves {
+        font-size: .9em;
+    }
+
+    .image {
+        width: 100vw;
+        height: auto;
+        margin: 0
+    }
+
+    .ingredients,
+    .method {
+        width: fit-content;
+        margin: 1em 1em 1em 2em;
+        padding: 1em;
+    }
+
+    /* Sign up page */
+
+    #form {
+        height: fit-content;
+    }
+
+    #signup-img {
+        margin: 1.4em 0 5.5em 0;
+    }
+
+    #signup-form {
+        position: absolute;
+        width: 100vw;
+        height: fit-content;
+        border: 0;
+        top: 75px;
+        max-width: 100%;
+        overflow-x: hidden;
+        /* border-box credited to https://stackoverflow.com/questions/5219175/how-to-make-an-element-width-100-minus-padding */
+        box-sizing: border-box;
+    }
+
+    #signup-form h2 {
+        text-align: center;
+    }
+
+    .text-input-name {
+        width: 90%;
+        margin: 1em 1em 20px 0;
+    }
+
+    .text-input-email {
+        width: 90%;
+    }
+
+    #age-range {
+        display: block;
+        clear: both;
+        margin-bottom: 1em;
+    }
+
+    #reason {
+        margin: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #buttons {
+        text-align: center;
+        margin: 1em;
+    }
+
+    #footer {
+        clear: both;
+    }
+}
