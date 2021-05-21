@@ -635,6 +635,40 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+/* ********************** 404 Error page ********************** */
+
+#error {
+    text-align: center;
+}
+
+#oops {
+    display: inline-block;
+}
+
+#oops h1 {
+    font-size: 1000%;
+}
+
+#oops h2 {
+    font-size: 200%;
+    margin-top: 1em;
+}
+
+#oops p {
+    font-size: 150%;
+    margin-top: 1em;
+}
+
+#oops a {
+    color: rgb(226, 98, 98);
+}
+
+#sad {
+    display: inline-block;
+    margin: 2em 0 0 3em;
+}
+
+
 /* ********************** MEDIA QUERIES ********************** */
 
 /* For extra large screens size 2000px and up */
@@ -766,6 +800,8 @@ input[type="checkbox"] {
 
     #site-links {
         display: inline-block;
+        background-color: black;
+        border: 1px solid red;
     }
 
     nav ul {
@@ -828,7 +864,7 @@ input[type="checkbox"] {
     /* Recipe page */
 
     #recipe-cover-img {
-        margin-top: 5.5em;
+        margin-top: 1.4em;
         height: 400px;
     }
 
@@ -925,5 +961,22 @@ input[type="checkbox"] {
 
     #footer {
         clear: both;
+    }
+
+    /* 404 Error Page */
+
+    #oops {
+        margin-top: 3em;
+        font-size: 75%;
+    }
+
+    #oops p {
+        margin-top: 2em;
+    }
+
+    #sad {
+        margin: 2em 0 0 0;
+        width: 90%;
+        height: auto;
     }
 }

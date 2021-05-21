@@ -83,6 +83,12 @@
     
     ![image](assets/wireframes/form.png)
 
+- __404 page__
+    - The 404 error page displays when an incorrect URL has been entered or the page is missing.
+    - From this page the user can easily navigate back to the home page.
+
+    ![image](assets/wireframes/404.png)
+
 ### Features left to implement
 
 - User ratings of recipes
@@ -135,6 +141,7 @@
 - The trailer for Land of Hope and Glory was sourced form [Earthling Eds](https://www.youtube.com/channel/UCVRrGAcUc7cblUzOhI1KfFg) youtube channel 
 - The trailer for What the Health was sourced from there [Youtube](https://www.youtube.com/channel/UCDVUqyG8R9Z0diJRU-YO3KA) channel
 - The Cowspiracy trailer was sourced from there [Youtube](https://www.youtube.com/channel/UCamf6YZ_Xo9vbcynZJwvdMA) channel
+- The watermelon picture on the 404 page was from the open source site [deviantart.com](https://www.deviantart.com/renbunny/art/Sad-Watermelon-554531253)
 
 
 
