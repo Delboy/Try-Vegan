@@ -238,7 +238,8 @@ nav li a:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-#cover-text h3 {
+#cover-text h2 {
+    font-size: 1.25em;
     padding: 25px 0 10px 0;
 }
 
@@ -257,6 +258,14 @@ nav li a:hover {
 
 #why h2 {
     font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#why h3 {
+    font-size: 2.5em;
     font-weight: 300;
     text-align: center;
     margin-top: 20px;
@@ -402,7 +411,7 @@ footer {
 
 #recipe-cover-text {
     color: rgb(100, 100, 100);
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-family: lato, sans-serif;
     text-align: left;
     width: 300px;
@@ -446,6 +455,14 @@ footer {
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
+
+.container h3{
+    font-size: 1.5em;
+}
+
+.container h4 {
+    font-size: 1.25em;
+ }
 
 .fa-clock,
 .fa-utensils {
