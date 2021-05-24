@@ -98,7 +98,16 @@
 
 - __Validators__
     - All HTML was ran through W3C validator and came back with no errors.
+        - Home Page
+        ![image](assets/wireframes/indexvalid.png)
+        - Recipe Page
+        ![image](assets/wireframes/recipesvalid.png)
+        - Sign-up page
+        ![image](assets/wireframes/signupvalid.png)
+        - 404 Page
+        ![image](assets/wireframes/404valid.png)
     - All CSS was ran through W3C Jigsaw validator and came back with no errors.
+    ![image](assets/wireframes/cssvalid.png)
 
 - __Further Testing__
     - The site was tested on google chrome, edge and safari browsers.
