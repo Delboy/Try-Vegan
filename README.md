@@ -138,6 +138,7 @@
 - The vegan burrito recipe was taken from [Frommybowl.com](https://frommybowl.com/rice-bean-burritos/)
 - The peanut butter cookie bars recipe was taken from [lovenadlemons.com](https://www.loveandlemons.com/peanut-butter-chocolate-chip-cookie-bars/)
 - The Icons in the footer and the icon in the logo were taken from [Font Awesome](https://fontawesome.com/)
+- The idea of a favicon was shown to me by fellow code institute student Ellis Robinson and created using [Favicon.io](https://favicon.io/)
 
 ### __Media__
 
