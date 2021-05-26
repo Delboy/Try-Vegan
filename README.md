@@ -7,7 +7,7 @@
 ## Design
 
 - __Colour scheme__
-    - The colour scheme I chose for the site is pink (RGB 26,98,98) and grey (RGB 100,100,100).
+    - The colour scheme I chose for the site is pink (RGB 226,98,98) and grey (RGB 100,100,100).
     - All grey links will either highlight pink or show a pink underline on hover.  
 
 - __Typography__
@@ -151,7 +151,3 @@
 - The trailer for What the Health was sourced from there [Youtube](https://www.youtube.com/channel/UCDVUqyG8R9Z0diJRU-YO3KA) channel
 - The Cowspiracy trailer was sourced from there [Youtube](https://www.youtube.com/channel/UCamf6YZ_Xo9vbcynZJwvdMA) channel
 - The watermelon picture on the 404 page was from the open source site [deviantart.com](https://www.deviantart.com/renbunny/art/Sad-Watermelon-554531253)
-
-
-
-
